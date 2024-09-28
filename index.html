@@ -15,6 +15,22 @@
             Name = prompt("Errore,inserisci il tuo nome ")
         }
         
+        let contatore = 0
+
+        alert ('Benvenuto ' + Name )
+        alert ('Rispondi bene a tutti per avere un auto nuova')
+        alert ('Domanda numero 1')
+        let domandaNumero1 = prompt('Qual è la capitale del Canada?')
+        domandaNumero1 = domandaNumero1.trim() //trim() serve per togliere gli spazi 
+        domandaNumero1 = domandaNumero1.toLowerCase() //toLowerCase() per mettere tutto in minuscolo        
+        if(domandaNumero1 != 'Ottawa'){
+            alert('Errore amico/a la risposta era Ottawa')
+
+        }
+        else{contatore = contatore + 1 
+            alert("Coretto")
+        }
+
 
 
     </script>
