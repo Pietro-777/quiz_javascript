@@ -18,19 +18,78 @@
         let contatore = 0
 
         alert ('Benvenuto ' + Name )
-        alert ('Rispondi bene a tutti per avere un auto nuova')
-        alert ('Domanda numero 1')
-        let domandaNumero1 = prompt('Qual è la capitale del Canada?')
+        alert ('Rispondi bene per vincere un auto nuova')
+        alert ('Domanda numero 1 ')
+        let domandaNumero1 = prompt("Qual è la capitale del Canada?")
+        while(domandaNumero1 === null ){
+            domandaNumero1 = prompt("NONO RISPONDI,Qual è la capitale del Canada?")
+        }
         domandaNumero1 = domandaNumero1.trim() //trim() serve per togliere gli spazi 
         domandaNumero1 = domandaNumero1.toLowerCase() //toLowerCase() per mettere tutto in minuscolo        
-        if(domandaNumero1 != 'Ottawa'){
-            alert('Errore amico/a la risposta era Ottawa')
+        if(domandaNumero1 != 'ottawa'){
+            alert('Errore,la risposta era: Ottawa')
 
-        }
-        else{contatore = contatore + 1 
-            alert("Coretto")
+        }else{contatore = contatore + 1 
+            alert("Coretto!, continua cosi")
         }
 
+        alert ('Domanda numero 2 ')
+        let domandaNumero2 = prompt("Chi ha scritto il romanzo I Promessi Sposi?")
+        while(domandaNumero2 === null ){
+            domandaNumero2 = prompt("NONO RISPONDI,Chi ha scritto il romanzo I Promessi Sposi?")
+        }
+        domandaNumero2 = domandaNumero2.trim() //trim() serve per togliere gli spazi 
+        domandaNumero2 = domandaNumero2.toLowerCase() //toLowerCase() per mettere tutto in minuscolo        
+        if(domandaNumero2 != 'alessandro manzoni'){
+            alert('Errore,la risposta era: Alessandro Manzoni')
+
+        }else{contatore = contatore + 1 
+            alert("Coretto!,complimenti")
+        }
+
+        alert ('Domanda numero 3 ')
+        let domandaNumero3 = prompt("In che anno è avvenuta la caduta del muro di Berlino?")
+        while(domandaNumero3 === null ){
+            domandaNumero3 = prompt("NONO RISPONDI,In che anno è avvenuta la caduta del muro di Berlino?")
+        }
+        domandaNumero3 = domandaNumero3.trim() //trim() serve per togliere gli spazi 
+        domandaNumero3 = domandaNumero3.toLowerCase() //toLowerCase() per mettere tutto in minuscolo        
+        if(domandaNumero3 != '1989'){
+            alert('Errore,la risposta era: 1989')
+
+        }else{contatore = contatore + 1 
+            alert("Coretto!,managgia siamo quasi alla fine")
+        }
+
+        alert ('Domanda numero 4 ')
+        let domandaNumero4 = prompt("Quale pianeta del sistema solare è noto per avere degli anelli?")
+        while(domandaNumero4 === null ){
+            domandaNumero4 = prompt("NONO RISPONDI,Quale pianeta del sistema solare è noto per avere degli anelli?")
+        }
+        domandaNumero4 = domandaNumero4.trim() //trim() serve per togliere gli spazi 
+        domandaNumero4 = domandaNumero4.toLowerCase() //toLowerCase() per mettere tutto in minuscolo        
+        if(domandaNumero4 != 'Saturno'){
+            alert('Errore,la risposta era: Saturno')
+
+        }else{contatore = contatore + 1 
+            alert("Coretto!,Ottimo")
+        }
+
+        alert ('Domanda numero 5 ')
+        let domandaNumero5 = prompt("Quale Paese ospita la Torre Eiffel?")
+        while(domandaNumero5 === null ){
+            domandaNumero5 = prompt("NONO RISPONDI,Quale Paese ospita la Torre Eiffel?")
+        }
+        domandaNumero5 = domandaNumero5.trim() //trim() serve per togliere gli spazi 
+        domandaNumero5 = domandaNumero5.toLowerCase() //toLowerCase() per mettere tutto in minuscolo        
+        if(domandaNumero5 != 'Francia'){
+            alert('Errore,la risposta era: Francia')
+
+        }else{contatore = contatore + 1 
+            alert("Coretto!,Niente male")
+        }
+
+        
 
 
     </script>
